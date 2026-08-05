@@ -65,6 +65,7 @@ android {
 //what is androidx == backwards compatibility
 dependencies {
     //implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    implementation("androidx.compose.material:material-icons-extended:1.6.8")
 
     implementation(platform("androidx.compose:compose-bom:2024.12.01"))
     implementation("androidx.activity:activity-compose:1.9.3")
